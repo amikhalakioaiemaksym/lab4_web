@@ -1,0 +1,284 @@
+body {
+    direction: ltr;
+    unicode-bidi: normal;
+    background-color: #f4f6f9;
+    background-image: none;
+    background-attachment: scroll;
+    background-position: 0px 0px, 50% 50%;
+    margin: 10px;
+    margin-top: 2%;
+    margin-right: 15px;
+    color: #333333 !important;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+}
+
+p {
+    line-height: 20px;
+    vertical-align: baseline;
+    overflow: visible;
+}
+
+table {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    min-height: 50px;
+    border-collapse: collapse;
+}
+
+#main-container {
+    position: relative;
+    z-index: auto;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+#order-form {
+    display: block;
+    clear: left;
+}
+
+#main-container > header {
+    border-bottom-width: 2px;
+    border-bottom-style: groove;
+    border-right-style: none;
+    border-color: #0066cc;
+    border-right-color: #cccccc;
+    border-top-color: #333333;
+}
+
+.form-group input {
+    width: 100%;
+    height: 10%;
+    min-height: 25px;
+    outline-width: 1px;
+    vertical-align: sub;
+}
+
+input[type] {
+    border-width: thin;
+    border-style: dotted;
+    border-bottom-width: thin;
+    border-bottom-style: dotted;
+    border-left-width: thin;
+    border-left-style: hidden;
+}
+
+input[type="text"] {
+    background-color: #ffffff;
+}
+
+input[type^="sub"] {
+    float: left;
+    display: inline;
+}
+
+p::first-child {
+    font-weight: bold;
+}
+
+p::first-line {
+    color: #0044aa;
+}
+
+h1::before {
+    content: "★ ";
+}
+
+tr:last-of-type {
+    border-bottom-style: hidden;
+}
+
+input:enabled {
+    visibility: visible;
+}
+
+input:disabled {
+    visibility: collapse;
+    background-color: #e0e0e0;
+}
+
+input:active {
+    vertical-align: bottom;
+}
+
+:lang(uk) {
+    unicode-bidi: bidi-override;
+}
+
+.site-header {
+    display: block;
+    position: static;
+    overflow: auto;
+}
+
+.header-inner {
+    display: block;
+    position: relative;
+    clip: rect(0px, 1000px, 500px, 0px);
+}
+
+.content-main {
+    display: block;
+    clear: none;
+}
+
+.info-section {
+    display: block;
+}
+
+.catalog-section {
+    display: block;
+}
+
+.table-responsive {
+    display: inline-table;
+}
+
+th {
+    display: table-cell;
+    vertical-align: baseline;
+    border-width: thin;
+    border-style: groove;
+    border-right-style: groove;
+    border-bottom-width: thin;
+    border-bottom-style: groove;
+    border-left-width: thin;
+    border-left-style: groove;
+}
+
+td {
+    display: table-cell;
+    vertical-align: bottom;
+    border-width: thin;
+    border-style: dotted;
+    border-right-style: dotted;
+    border-bottom-width: thin;
+    border-bottom-style: dotted;
+    border-left-width: thin;
+    border-left-style: dotted;
+}
+
+.form-section {
+    display: block;
+}
+
+.form-wrapper {
+    display: block;
+}
+
+.form-group {
+    display: compact; 
+    margin-top: 2%;
+    margin-right: 5px;
+}
+
+.site-footer {
+    display: block;
+    clear: left;
+}
+
+.nav-links {
+    display: inline;
+}
+/* ===== Списки та меню ===== */
+.nav-links a {
+    margin-right: 15px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+ol, ul {
+    line-height: 1.7;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+dd {
+    margin-left: 25px;
+}
+
+.promo-line {
+    display: block;
+    background-color: #e6f0fa;
+    border: 1px solid #0066cc;
+    color: #0044aa;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.step-item {
+    color: #222222;
+}
+
+.service-item::marker {
+    color: #0066cc;
+}
+
+.option-cmd {
+    display: inline;
+}
+
+.phone-nobr {
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.menu-link {
+    color: #0066cc;
+}
+
+.menu-list li {
+    margin-bottom: 6px;
+}
+
+/* ===== Таблиці ===== */
+.pc-table, .price-table {
+    max-width: 1000px;
+}
+
+.pc-table caption, .price-table caption {
+    caption-side: top;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 6px;
+}
+
+.pc-table th, .price-table th {
+    background-color: #dde8f5;
+    text-align: center;
+    vertical-align: middle;
+    border-style: solid;
+    border-color: #0066cc;
+}
+
+.pc-table td, .price-table td {
+    vertical-align: middle;
+    border-style: solid;
+    border-color: #999999;
+}
+
+.pc-table tbody tr:nth-child(even), .price-table tbody tr:nth-child(even) {
+    background-color: #eef3f9;
+}
+
+.pc-table tfoot td {
+    background-color: #dde8f5;
+    font-weight: bold;
+}

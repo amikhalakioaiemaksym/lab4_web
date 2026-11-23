@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <title>Інформація про фірму у списках — Compx</title>
+        <link rel="stylesheet" href="style.css">
+        <link id="site-icon" rel="icon" sizes="32x32" type="image/svg+xml" style="display:none"
+              href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230066cc'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='white'%3EC%3C/text%3E%3C/svg%3E">
+    </head>
+    <body>
+        <div id="main-container">
+            <header class="site-header">
+                <nav class="nav-links">
+                    <a href="Site.html"><b>Головна</b></a>
+                    <a href="About.html"><b>Новини</b></a>
+                    <a href="Author.html"><b>Про автора</b></a>
+                    <a href="Lists.html"><b>Списки</b></a>
+                    <a href="Tables.html"><b>Таблиці</b></a>
+                    <a href="Menu.html"><b>Меню</b></a>
+                </nav>
+            </header>
+
+            <main class="content-main">
+                <h1>Фірма "Compx" у списках</h1>
+
+                <marquee id="promo-line" class="promo-line" height="30" scrollamount="4" direction="left" title="Акції магазину Compx">
+                    Акція місяця: безкоштовна збірка та доставка ПК по всій Україні! Гарантія до 36 місяців на всі комп'ютери.
+                </marquee>
+
+                <section class="list-section" id="about-firm">
+                    <h2>1. Загальна інформація (визначення)</h2>
+                    <dl>
+                        <dt id="term-firm" title="Назва підприємства" style="color:#0044aa;">Фірма</dt>
+                        <dd dir="ltr" title="Повна назва">Магазин комп'ютерної техніки "Compx", що працює з 2015 року.</dd>
+
+                        <dt id="term-activity" title="Напрям роботи" style="color:#0044aa;">Діяльність</dt>
+                        <dd dir="ltr" title="Чим займається фірма">Продаж, збірка під замовлення, гарантійне та сервісне обслуговування ПК.</dd>
+
+                        <dt id="term-address" title="Де знаходимось" style="color:#0044aa;">Адреса</dt>
+                        <dd dir="ltr" title="Головний офіс">м. Чернівці, вул. Руська, 18.</dd>
+
+                        <dt id="term-phone" title="Як зв'язатися" style="color:#0044aa;">Телефон</dt>
+                        <dd dir="ltr" title="Контактний номер"><nobr id="phone-nobr" class="phone-nobr">+38 (099) 123-45-67</nobr></dd>
+                    </dl>
+                </section>
+
+                <section class="list-section" id="order-steps">
+                    <h2>2. Етапи замовлення комп'ютера (нумерований список)</h2>
+                    <ol type="1" style="list-style-type: decimal; color:#222;">
+                        <li value="1" class="step-item">Оберіть модель у каталозі або опишіть власну конфігурацію.</li>
+                        <li value="2" class="step-item">Заповніть форму замовлення на головній сторінці.</li>
+                        <li value="3" class="step-item">Менеджер зв'яжеться з вами та узгодить комплектацію й ціну.</li>
+                        <li value="4" class="step-item">Наші майстри зберуть і протестують комп'ютер.</li>
+                        <li value="5" class="step-item">Отримайте ПК у магазині або через кур'єрську доставку.</li>
+                    </ol>
+                </section>
+
+                <section class="list-section" id="warranty">
+                    <h2>3. Умови гарантії (нумерований список літерами)</h2>
+                    <ol type="a" start="3" style="list-style-type: lower-alpha; color:#222;">
+                        <li class="step-item">Гарантія на готові комп'ютери — до 36 місяців.</li>
+                        <li class="step-item">Гарантія на окремі комплектуючі — 12 місяців.</li>
+                        <li class="step-item">Безкоштовна діагностика протягом гарантійного терміну.</li>
+                        <li class="step-item">Заміна несправних деталей у строк до 14 днів.</li>
+                    </ol>
+                </section>
+
+                <section class="list-section" id="services">
+                    <h2>4. Асортимент і послуги (маркований список)</h2>
+                    <ul type="square" start="1" value="square" compact style="list-style-type: square; color:#222;">
+                        <li class="service-item">Офісні комп'ютери</li>
+                        <li class="service-item">Ігрові комп'ютери</li>
+                        <li class="service-item">Комплектуючі: процесори, відеокарти, оперативна пам'ять, накопичувачі</li>
+                        <li class="service-item">Чистка та апгрейд ПК</li>
+                        <li class="service-item">Комп'ютерна діагностика та ремонт</li>
+                    </ul>
+                </section>
+
+                <section class="list-section" id="options">
+                    <h2>5. Додаткові опції замовлення</h2>
+                    <p>
+                        <command id="cmd-assembly" class="option-cmd" type="checkbox" label="Професійна збірка" checked>&#9745; Професійна збірка (включено)</command><br>
+                        <command id="cmd-delivery" class="option-cmd" type="checkbox" label="Доставка кур'єром" checked>&#9745; Доставка кур'єром (включено)</command>
+                    </p>
+                </section>
+
+                <section class="list-section" id="links">
+                    <h2>6. Корисні посилання</h2>
+                    <ul style="list-style-type: square;">
+                        <li class="link-item"><a href="Site.html" rev="index" dir="ltr" class="menu-link" target="_self" title="Каталог та форма замовлення">Каталог ПК та замовлення</a></li>
+                        <li class="link-item"><a href="About.html" rev="index" dir="ltr" class="menu-link" target="_self" title="Останні новини фірми">Новини фірми</a></li>
+                        <li class="link-item"><a href="Menu.html" rev="index" dir="ltr" class="menu-link" target="_blank" title="Перейти до сторінки меню">Сторінка меню</a></li>
+                    </ul>
+                </section>
+            </main>
+
+            <footer class="site-footer">
+                <nav class="nav-links">
+                    <a href="Site.html"><b>Головна</b></a>
+                    <a href="About.html"><b>Новини</b></a>
+                    <a href="Author.html"><b>Про автора</b></a>
+                    <a href="Lists.html"><b>Списки</b></a>
+                    <a href="Tables.html"><b>Таблиці</b></a>
+                    <a href="Menu.html"><b>Меню</b></a>
+                </nav>
+            </footer>
+        </div>
+    </body>
+</html>
